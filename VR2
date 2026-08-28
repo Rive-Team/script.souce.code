@@ -2280,8 +2280,8 @@ if not _G.Opened then
 		end
 	end
 
-		AddDeveloper("StayHere", "https://images-ext-1.discordapp.net/external/H2EfU10kfX-FaDKZGoIP-6DZoIQ1d7_XZuEdGQp-7RI/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/1208039968144883764/e818226e79c1220daba8b54a173dd3d8.png?format=webp&quality=lossless", "3lx.0", "مطور السكربت", true)
-		AddDeveloper("Slient", "https://media.discordapp.net/attachments/1542791143803064330/1542835404481503282/3bae005d773f38d92c86a2a72381b7f1.jpg?ex=6a92acf0&is=6a915b70&hm=8b2204fc0a38fb1256fbee23de60116ecf48b8af986833d8855aee3f34c7e105&=&format=webp&width=384&height=384", "_yfl", "مطور السكربت", true)
+		AddDeveloper("StayHere", "https://avatar-discord.vercel.app/api/pfp/1208039968144883764/image", "3lx.0", "مطور السكربت", true)
+		AddDeveloper("Slient", "https://avatar-discord.vercel.app/api/pfp/1281983625725870197/image", "_yfl", "مطور السكربت", true)
 
 	task.wait(0.1)
 
@@ -3918,7 +3918,7 @@ if not _G.Opened then
 		end)
 	end
 
-	SendNotify("System VR2", "Script developed by V R 7 TEAM - Discord in your clipboard", 10)
+	SendNotify("System VR2", "Script developed by V R 2 TEAM - Discord in your clipboard", 10)
 
 	-- Game specific features (simplified for the version)
 	if game.PlaceId ~= 76272175611885 and game.PlaceId ~= 114337591415801 then
@@ -9977,7 +9977,7 @@ if not _G.Opened then
 		body.Size = UDim2.new(1, -40, 1, -70)
 		body.Position = UDim2.new(0, 20, 0, 60)
 		body.BackgroundTransparency = 1
-		body.Text = "🚨 إعلان هام 🚨\n\nتم فتح باب بيع الاشتراك المدفوع من جديد!\n⚠️ البيع متاح لمدة أسبوع واحد فقط.\n\nالاشتراك يعمل في جميع المابات 🛡️\n\n💸 باقات الاشتراك:\n• أسبوعين: 40 ريال\n• شهر واحد: 70 ريال\n• 3 أشهر: 140 ريال\n\n⏳ سارع بالانضمام، ننتظرك في الديسكورد!"
+		body.Text = "تم فك تشفير هذا السكربت من قبل VR2\n\nسيرفر فك التشفير:\nhttps://discord.gg/Ghhpy4FPet\n\nسيرفر VR2:\nhttps://discord.gg/wbUakrz7EV"
 		body.Font = Enum.Font.GothamBold
 		body.TextColor3 = Color3.fromRGB(240, 240, 240)
 		body.TextSize = 20
